@@ -2,3 +2,5 @@
 
 ![Diagrama UML del Problema](dFigura.png)
 
+[Codigo en plantUML](CodigoUML.md)
+
