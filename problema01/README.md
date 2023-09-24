@@ -70,41 +70,39 @@ class Rectangulo extends Figura {
     }
 
     public Rectangulo(double base, double altura) {
-        this.base = base;
-        this.altura = altura;
+    
     }
 
     public Rectangulo(Rectangulo r) {
-        this.base = r.base;
-        this.altura = r.altura;
+       
     }
 
     public void informacion() {
-        System.out.println("Rectángulo");
+      
     }
 
     public double calcularArea() {
-        return base * altura;
+        
     }
 
     public double calcularPerimetro() {
-        return 2 * (base + altura);
+      
     }
 
     public void setBase(double base) {
-        this.base = base;
+        
     }
 
     public double getBase() {
-        return base;
+     
     }
 
     public void setAltura(double altura) {
-        this.altura = altura;
+       
     }
 
     public double getAltura() {
-        return altura;
+      
     }
 }
 
@@ -116,31 +114,31 @@ class Circulo extends Figura {
     }
 
     public Circulo(double radio) {
-        this.radio = radio;
+    
     }
 
     public Circulo(Circulo c) {
-        this.radio = c.radio;
+       
     }
 
     public void informacion() {
-        System.out.println("Círculo");
+       
     }
 
     public double calcularArea() {
-        return Math.PI * radio * radio;
+        
     }
 
     public double calcularPerimetro() {
-        return 2 * Math.PI * radio;
+       
     }
 
     public void setRadio(double radio) {
-        this.radio = radio;
+ 
     }
 
     public double getRadio() {
-        return radio;
+        
     }
 }
 
@@ -153,42 +151,39 @@ class Triangulo extends Figura {
     }
 
     public Triangulo(double base, double altura) {
-        this.base = base;
-        this.altura = altura;
+ 
     }
 
     public Triangulo(Triangulo t) {
-        this.base = t.base;
-        this.altura = t.altura;
+     
     }
 
     public void informacion() {
-        System.out.println("Triángulo");
+ 
     }
 
     public double calcularArea() {
-        return (base * altura) / 2;
+       
     }
 
     public double calcularPerimetro() {
-        // No es posible calcular el perímetro de un triángulo sin más información
-        return -1;
+   
     }
 
     public void setBase(double base) {
-        this.base = base;
+ 
     }
 
     public double getBase() {
-        return base;
+
     }
 
     public void setAltura(double altura) {
-        this.altura = altura;
+   
     }
 
     public double getAltura() {
-        return altura;
+
     }
 }
 
